@@ -15,10 +15,12 @@ while(true){
 document.write(`<p>El arreglo tine una longitud de: --> ${ciudades.length} </p>`);
 
 //Mostrar en el documento web los ítems de las posiciones primera, tercera y última.
-document.write(`<p>posición 1: ${ciudades[0]}, posición tercera ${ciudades[2]}, ultima posicion ${ciudades[ciudades.length-1]}  </p>`);
+document.write(`<p>elemento en 1er posición: ${ciudades[0]}, elemento en 3er posición ${ciudades[2]}, ultima posicion ${ciudades[ciudades.length-1]}  </p>`);
 
 //Añade en última posición la ciudad de París.
 ciudades.push("Paris");
+document.write(`<p>ultima posicion ${ciudades[ciudades.length-1]} </p>`);
+
 
 //Escribe por pantalla el elemento que ocupa la segunda posición.
 document.write(`<p>El arreglo que se encuentra en la segunda posición: --> ${ciudades[1]} </p>`);
